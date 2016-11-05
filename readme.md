@@ -7,9 +7,9 @@ Plugin Deploy from Git
 
 2) Define alias or, export path
 ```
-alias plugin-deploy='sh ~/scripts/plugin-deploy.sh'
+alias plugin-deploy='sh ~/deploy-from-git/plugin-deploy.sh'
 
-alias plugin-tag='sh ~/scripts/plugin-tag.sh'
+alias plugin-tag='sh ~/deploy-from-git/plugin-tag.sh'
 ```
 
 3) Change WordPress.org svn username SVN_USERNAME and DEST_DIR in `plugin-deploy.sh` file
